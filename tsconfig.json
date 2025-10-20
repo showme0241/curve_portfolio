@@ -3,7 +3,10 @@
     "module": "commonjs",
     "paths": {
       "@/*": ["src/*"],
-      "@apis/*": ["src/apis/*"]
+      "@apis/*": ["src/apis/*"],
+      "@constants/*": ["src/constants/*"],
+      "@utils/*": ["src/utils/*"],
+      "@type/*": ["src/types/*"]
     },
     "declaration": true,
     "removeComments": true,
